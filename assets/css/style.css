@@ -287,8 +287,9 @@ header .navbar ul li a:hover {
 }
 .social-icons a {
   font-size: 2rem;
-  display: inline-block;
-  line-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #00d9ff;
   background-color: #09011b;
   width: 44px;
@@ -296,10 +297,9 @@ header .navbar ul li a:hover {
   text-align: center;
   margin-right: 8px;
   border-radius: 100%;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
+
 .social-icons a:active,
 .social-icons a:focus,
 .social-icons a:hover {
