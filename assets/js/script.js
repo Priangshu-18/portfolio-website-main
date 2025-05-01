@@ -38,22 +38,37 @@ $(document).ready(function () {
     });
 
     // <!-- emailjs to mail contact form data -->
-    $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
-
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
-        event.preventDefault();
-    });
+    // $(document).ready(function () {
+    //     emailjs.init("lsLE3ufsjozHHgj_L"); // your actual public key
+    
+    //     $("#contact-form").submit(function (event) {
+    //         event.preventDefault(); // prevent form default action
+    
+    //         emailjs.sendForm('service_lla5lro', 'template_79wzczl', '#contact-form', 'lsLE3ufsjozHHgj_L')
+    //             .then(function (response) {
+    //                 console.log('SUCCESS!', response.status, response.text);
+    //                 alert("Form Submitted Successfully");
+    //                 document.getElementById("contact-form").reset();
+    //             }, function (error) {
+    //                 console.log('FAILED...', error);
+    //                 alert("Form Submission Failed! Try Again");
+    //             });
+    //     });
+    // });    
     // <!-- emailjs to mail contact form data -->
-
+    $(document).ready(function () {
+        // When form is submitted, disable the submit button
+        $("#contact-form").submit(function (event) {
+            // Disable the submit button to prevent multiple submissions
+            var form = $(this);
+            form.find("button[type='submit']").prop("disabled", true).text("Sending...");
+    
+            // No need for AJAX; let the form submit the traditional way to Formspree
+            // Once form submission occurs, reset the form and re-enable the submit button
+            return true;
+        });
+    });
+    
 });
 
 document.addEventListener('visibilitychange',
