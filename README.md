@@ -38,7 +38,4 @@ I'm a passionate developer with experience in building full-stack applications. 
 1. Clone or download the ZIP file from the GitHub repo:  
    [GitHub Repo](https://github.com/Priangshu-18/portfolio-website-main)
 2. Open the project folder in VS Code or your preferred code editor.
-3. Run the following commands in your terminal:
-
-   ```bash
-   run the code in the live server
+3. Run the index.html code in the live server
