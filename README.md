@@ -1,41 +1,18 @@
-# Portfolio Website
+# 💫About Me :
+🚀 Aspiring Full-Stack Developer | B.Tech CSE | AI Engineer | Python | Cyber Security | Open to Opportunities
 
-Welcome to my Portfolio Website – a sleek, personal portfolio to showcase my projects, skills, and achievements 💼🌐✨
+## 🌐Socials
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/priangshu_mukherjee_18) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/priangshumukherjee) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/Priangshu_18) 
 
-## Table of Contents
-- [About Me](#about-me)
-- [Key Features](#key-features)
-- [How to Get Started](#how-to-get-started)
-- [Preview](#preview)
-- [How to set-up in VS Code](#how-to-set-up-in-vs-code)
-- [Connect With Me](#connect-with-me)
+# 💻Tech Stack
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=java&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat&logo=firebase) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=flat&logo=jquery&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=flat&logo=angular&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=flat&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) 	![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white)
+# 📊GitHub Stats :
+![](https://github-readme-stats.vercel.app/api?username=Priangshu-18&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=Priangshu-18&theme=radical&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Priangshu-18&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-## About Me
-I'm a passionate developer with experience in building full-stack applications. This portfolio website is built to showcase my work, resume, and online presence in a professional and interactive manner.
+## 🏆GitHub Trophies
+![](https://github-trophies.vercel.app/?username=Priangshu-18&theme=onedark&no-frame=false&no-bg=true&margin-w=4)
 
-## Key Features
-- 📄 Interactive and responsive personal portfolio  
-- 🚀 Built with modern web technologies like JavaScript and Tailwind CSS  
-- 🌍 Live deployed version for global access  
-- 🛠️ Sections for Projects, Skills, Contact, and About Me  
-
-## How to Get Started
-1. Visit the live website: [Portfolio Website](https://portfolio-website-main-puce.vercel.app/)
-2. Browse through the sections like Projects, Skills, and Contact.
-3. Reach out to me via the contact section or explore my GitHub for source code.
-
-## Preview
-<!-- Replace the below image link with your actual deployed site preview or a screenshot -->
-![Screenshot (289)](https://github.com/user-attachments/assets/9326f937-6820-4947-9727-91f3e3a8cc3f)
-
-![Screenshot (290)](https://github.com/user-attachments/assets/28debedf-9548-4aee-8b8c-c02acc69f051)
-
-![Screenshot (291)](https://github.com/user-attachments/assets/82d390be-3121-43ea-a410-7b96e832577d)
-
-
-
-## How to set-up in VS Code
-1. Clone or download the ZIP file from the GitHub repo:  
-   [GitHub Repo](https://github.com/Priangshu-18/portfolio-website-main)
-2. Open the project folder in VS Code or your preferred code editor.
-3. Run the index.html code in the live server
+### ✍️Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
