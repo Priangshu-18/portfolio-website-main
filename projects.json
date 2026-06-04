@@ -1,0 +1,86 @@
+[
+  {
+    "name": "AI Mock Interview Preparation",
+    "desc": "An AI-powered mock interview preparation platform using Gemini AI API. Features voice-interactive interviews with real-time feedback — built with Next.js, Vapi, and Firebase.",
+    "image": "ai-mock",
+    "category": "mern",
+    "links": {
+      "view": "https://ai-mock-interview-sigma-eight.vercel.app/",
+      "code": "https://github.com/Priangshu-18/ai-mock-interview"
+    }
+  },
+  {
+    "name": "Blog Website",
+    "desc": "A full-stack blog platform built using MERN stack with Appwrite backend. Features user authentication, CRUD operations, role-based access control, and rich text editing.",
+    "image": "blog-website",
+    "category": "mern",
+    "links": {
+      "code": "https://github.com/Priangshu-18/blog-website"
+    }
+  },
+  {
+    "name": "GreenBasket — Grocery Store",
+    "desc": "A full-featured grocery e-commerce platform built with PHP and MySQL. Includes product management, order tracking, user authentication, and admin analytics dashboard.",
+    "image": "grocery-website",
+    "category": "mern",
+    "links": {
+      "code": "https://github.com/Priangshu-18/GreenBasket"
+    }
+  },
+  {
+    "name": "Plant Species Identifier using CNN",
+    "desc": "Plant Species Identification using Convolutional Neural Networks. Built with TensorFlow and Keras for training the deep learning model on plant image datasets.",
+    "image": "plant",
+    "category": "basicweb",
+    "links": {
+      "view": "https://www.linkedin.com/posts/priangshumukherjee_plant-species-identification-using-cnn-priangshu-mukherjee-activity-7320650133799419904-H-qb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtJcOkBiO4lEuwlaDz3EV316PB_mnbDmI0"
+    }
+  },
+  {
+    "name": "Turtle Race Game",
+    "desc": "An interactive turtle race game built with Python's turtle graphics library. Players can bet on turtles and watch a simulated race with randomized movement.",
+    "image": "turtle",
+    "category": "lamp",
+    "links": {
+      "view": "https://www.linkedin.com/posts/priangshumukherjee_python-turtlegraphics-gamedev-activity-7321424314770120704-4I60?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtJcOkBiO4lEuwlaDz3EV316PB_mnbDmI0",
+      "code": "https://github.com/Priangshu-18/turtle-race"
+    }
+  },
+  {
+    "name": "Secure Password Generator",
+    "desc": "A secure password generator with GUI built using Python's Tkinter. Generates strong, customizable passwords and stores them securely using JSON-based encryption.",
+    "image": "password",
+    "category": "lamp",
+    "links": {
+      "view": "https://www.linkedin.com/posts/priangshumukherjee_python-pythonprojects-tkinter-activity-7322598383905329154-OWLr?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtJcOkBiO4lEuwlaDz3EV316PB_mnbDmI0",
+      "code": "https://github.com/Priangshu-18/Advanced-Json-Password-Generator"
+    }
+  },
+  {
+    "name": "Snake Game",
+    "desc": "A classic snake game built using JavaScript and HTML Canvas. Features smooth gameplay with high score persistence using local storage.",
+    "image": "snake-game",
+    "category": "mern",
+    "links": {
+      "code": "https://github.com/Priangshu-18/Snake-Game"
+    }
+  },
+  {
+    "name": "Student Satisfaction Survey",
+    "desc": "A web application for collecting and analyzing student satisfaction feedback. Built with clean UI for easy survey submission and data visualization.",
+    "image": "Student-satisfaction",
+    "category": "android",
+    "links": {
+      "code": "https://github.com/Priangshu-18/studentSatisfactionSurvey"
+    }
+  },
+  {
+    "name": "Brand Page Website",
+    "desc": "A responsive brand page website built using HTML, CSS, and JavaScript. Features modern design patterns with smooth animations and interactive elements.",
+    "image": "brand-designpage",
+    "category": "android",
+    "links": {
+      "code": "https://github.com/Priangshu-18/resturentwebsite"
+    }
+  }
+]
