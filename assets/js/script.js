@@ -37,38 +37,13 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    // <!-- emailjs to mail contact form data -->
-    // $(document).ready(function () {
-    //     emailjs.init("lsLE3ufsjozHHgj_L"); // your actual public key
-    
-    //     $("#contact-form").submit(function (event) {
-    //         event.preventDefault(); // prevent form default action
-    
-    //         emailjs.sendForm('service_lla5lro', 'template_79wzczl', '#contact-form', 'lsLE3ufsjozHHgj_L')
-    //             .then(function (response) {
-    //                 console.log('SUCCESS!', response.status, response.text);
-    //                 alert("Form Submitted Successfully");
-    //                 document.getElementById("contact-form").reset();
-    //             }, function (error) {
-    //                 console.log('FAILED...', error);
-    //                 alert("Form Submission Failed! Try Again");
-    //             });
-    //     });
-    // });    
-    // <!-- emailjs to mail contact form data -->
-    $(document).ready(function () {
-        // When form is submitted, disable the submit button
-        $("#contact-form").submit(function (event) {
-            // Disable the submit button to prevent multiple submissions
-            var form = $(this);
-            form.find("button[type='submit']").prop("disabled", true).text("Sending...");
-    
-            // No need for AJAX; let the form submit the traditional way to Formspree
-            // Once form submission occurs, reset the form and re-enable the submit button
-            return true;
-        });
+    // form submission handler
+    $("#contact-form").submit(function (event) {
+        var form = $(this);
+        form.find("button[type='submit']").prop("disabled", true).text("Sending...");
+        return true;
     });
-    
+
 });
 
 document.addEventListener('visibilitychange',
@@ -142,23 +117,13 @@ function showProjects(projects) {
     });
     projectsContainer.innerHTML = projectHTML;
 
-    // <!-- tilt js effect starts -->
+    // re-initialize tilt on dynamically added project cards
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
         max: 15,
     });
-    // <!-- tilt js effect ends -->
 
-    /* ===== SCROLL REVEAL ANIMATION ===== */
-    const srtop = ScrollReveal({
-        origin: 'top',
-        distance: '80px',
-        duration: 1000,
-        reset: false
-    });
-
-    /* SCROLL PROJECTS */
+    // re-trigger scroll reveal on dynamically added project cards
     srtop.reveal('.work .box', { interval: 200 });
-
 }
 
 fetchData().then(data => {
@@ -169,22 +134,10 @@ fetchData("projects").then(data => {
     showProjects(data);
 });
 
-// <!-- tilt js effect starts -->
+// tilt js effect — initial elements
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 15,
 });
-// <!-- tilt js effect ends -->
-
-
-// pre loader start
-// function loader() {
-//     document.querySelector('.loader-container').classList.add('fade-out');
-// }
-// function fadeOut() {
-//     setInterval(loader, 500);
-// }
-// window.onload = fadeOut;
-// pre loader end
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({
@@ -228,6 +181,9 @@ srtop.reveal('.work .box', { interval: 200 });
 /* SCROLL EXPERIENCE */
 srtop.reveal('.experience .timeline', { delay: 400 });
 srtop.reveal('.experience .timeline .container', { interval: 400 });
+
+/* SCROLL REVIEWS */
+srtop.reveal('.reviews .box', { interval: 200 });
 
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
