@@ -545,7 +545,7 @@ header .navbar ul li a:hover {
   background: #e5ecfb;
   min-height: 80vh;
 }
-.education .qoute {
+.education .quote {
   font-size: 1.5rem;
   text-align: center;
   font-family: "Nunito", sans-serif;
@@ -1250,15 +1250,13 @@ form .button-area {
   background: #f7f7f7;
 }
 .reviews .box-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
   gap: 3rem;
   margin-top: 4rem;
   padding: 2rem 0;
 }
 .reviews .box {
-  flex: 1 1 45rem;
   background: #fff;
   border-radius: 1.5rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
@@ -1270,6 +1268,7 @@ form .button-area {
   align-items: center;
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.03);
+  height: 100%;
 }
 .reviews .box:hover {
   transform: translateY(-5px);
@@ -1303,6 +1302,12 @@ form .button-area {
   letter-spacing: 0.1rem;
   margin-bottom: 2rem;
 }
+.reviews .box .content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+}
 .reviews .box .text {
   font-size: 1.5rem;
   line-height: 1.8;
@@ -1312,17 +1317,12 @@ form .button-area {
   font-style: italic;
   position: relative;
   padding: 0 1.5rem;
+  margin-top: auto;
 }
 .reviews .box .text i {
   color: #2506ad;
   font-size: 1.6rem;
   margin: 0 0.8rem;
   opacity: 0.6;
-}
-@media screen and (max-width: 768px) {
-  .reviews .box {
-    flex: 1 1 100%;
-    margin: 1rem 0;
-  }
 }
 /* reviews section ends */
